@@ -75,9 +75,10 @@ p {
 
 footer {
   margin-top: 45px;
+  background: #F0FFF0;
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
-  color: #F0F8FF;
+  /*color: #F0F8FF;*/
   a {
     color: #6495ED;
     &:hover {
@@ -85,10 +86,12 @@ footer {
     }
   }
   small {
+  color: #6495ED;
     float: left;
   }
   ul {
     float: right;
+    
     list-style: none;
     li {
       float: left;
