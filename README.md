@@ -1,9 +1,12 @@
 # DormRate
 
-Ever wondered if you could find the best rated rooms on campus? 
+Ever wondered if you could find the best rated rooms on campus? DormRate lets users rate their rooms on campus, and everyone can see the rooms, their decorations, and can ask questions!
+
+Let's make room selection easier than ever before!
 
 
-
+"It's the Yelp of Dorms"
+-Vidush's Friends
 
 
 ## License
