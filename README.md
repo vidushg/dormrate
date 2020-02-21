@@ -1,4 +1,8 @@
-# Ruby on Rails Tutorial sample application
+# DormRate
+
+Ever wondered if you could find the best rated rooms on campus? 
+
+
 
 
 
