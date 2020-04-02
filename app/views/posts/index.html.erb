@@ -1,0 +1,10 @@
+<% provide(:title, 'All Ratings') %>
+<h1>All Ratings</h1>
+
+<ul class="rate">
+  <% @post.each do |post| %>
+    <li>
+       <%= link_to post.room, post %>
+    </li>
+  <% end %>
+</ul>
