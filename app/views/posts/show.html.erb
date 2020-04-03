@@ -1,3 +1,8 @@
-<%= @post.name %>, <%= @post.email %>, <%= @post.room %>, <%= @post.rating %>,  <%= @post.desc %>, <%= @post.updated_at %>
+<h3> Rating for <%= @post.room %> </h3>
+<em>Published by <%= @post.name %> at <%= @post.updated_at %></em><br>
+<ul><li>Rating (out of 5): <%= @post.rating %> </li>
+<li>Description: <%= @post.desc %> </li></ul>
+
+
 
 

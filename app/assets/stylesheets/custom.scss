@@ -11,8 +11,12 @@ $gray-medium-light: #eaeaea;
   box-sizing:         border-box;
 }
 
+
 /* universal */
 
+.navbar {
+    background-color: #3923D5;
+}
 body {
   padding-top: 60px;
 }
@@ -66,7 +70,7 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #0000FF;
+  color: #FA9000;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -75,6 +79,10 @@ p {
     color: #6495ED;
     text-decoration: none;
   }
+}
+
+header{
+  background: #6495ED;
 }
 
 /* footer */
@@ -114,4 +122,16 @@ footer {
   width: 100%;
   margin-top: 45px;
   @include box_sizing;
+}
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+  @include box_sizing;
+}
+
+input {
+  height: auto !important;
 }
