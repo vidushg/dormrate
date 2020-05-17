@@ -12,6 +12,14 @@
 
 ActiveRecord::Schema.define(version: 20200517085543) do
 
+  create_table "halls", force: :cascade do |t|
+    t.string "room_number"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+
+
   create_table "posts", force: :cascade do |t|
     t.string "name"
     t.string "email"

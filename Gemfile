@@ -10,10 +10,16 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
 gem 'bootstrap-sass', '3.4.1'
 
+#For AWS S3 and File Upload
+gem 'paperclip', git: "git://github.com/thoughtbot/paperclip.git"
+gem 'aws-sdk', '~> 2.3'
+
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.6', platform: :mri
 end
+
+
 
 group :development do
   gem 'web-console',           '3.5.1'
