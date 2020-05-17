@@ -8,6 +8,7 @@ Let's make room selection easier than ever before!
 "It's the Yelp of Dorms"
 -Vidush's Friends
 
+This site shows my experience with Ruby on Rails so far. I worked on the frontend, backend, site integration, and I am currently working on image hosting via an AWS S3 bucket. This site is testament to my web-development capabilities, and is a project I can proudly talk about.
 
 ## License
 
