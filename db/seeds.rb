@@ -11,6 +11,7 @@ csv.each do |row|
   t.room = row['Room']
   t.rating = row['Rating']
   t.desc = row['Desc']
+  t.dormpic = row["dormpic"]
   t.save
   puts "#{t.name}, #{t.room} saved"
 end
