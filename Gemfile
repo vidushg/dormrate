@@ -11,7 +11,7 @@ gem 'jbuilder',     '2.7.0'
 gem 'bootstrap-sass', '3.4.1'
 
 #For AWS S3 and File Upload
-gem 'paperclip', git: "git://github.com/thoughtbot/paperclip.git"
+#gem 'paperclip', git: "git://github.com/thoughtbot/paperclip.git"
 gem 'aws-sdk', '~> 2.3'
 
 group :development, :test do
