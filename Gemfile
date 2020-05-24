@@ -19,6 +19,7 @@ group :development, :test do
   gem 'byebug',  '9.0.6', platform: :mri
 end
 
+gem 'figaro'
 
 
 group :development do
