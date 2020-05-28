@@ -10,6 +10,10 @@ Let's make room selection easier than ever before!
 
 This site shows my experience with Ruby on Rails so far. I worked on the frontend, backend, site integration, and I am currently working on image hosting via an AWS S3 bucket. This site is testament to my web-development capabilities, and is a project I can proudly talk about.
 
+Issues:
+--AWS S3 CORS requests fail on Safari
+--ProgressBar renders twice on the form
+
 ## License
 
 All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
